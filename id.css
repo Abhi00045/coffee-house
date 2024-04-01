@@ -1,0 +1,103 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box; 
+    color: brown;
+    top: 0%;
+    bottom: 0%;
+    left: 0%;
+    right: 0; 
+    /* position:fixed;  */
+}
+body{
+     background-color: #A52A2A33   }
+nav{
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    width: 100%;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px 0px black;
+    /* position: fixed;
+    top: 0;
+    z-index: 10;
+   margin-bottom: 10px; */
+}
+nav input{
+    /* color: white; */
+    width: 70%;
+    height: 60px;
+    background-color: rgb(99, 18, 18,1);
+    color: white;
+     border-radius: 12px;
+     opacity: 92%; 
+     position: sticky;
+     outline: none;
+     border: none;
+     font-size: 15px;
+     text-align: justify;
+
+     /* position: fixed; */
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    /* border: solid red; */
+    margin: 50px;
+}
+div{
+    display: flex;   
+   flex-direction: column; 
+   margin: 5px;
+   /* border: solid blue; */
+} 
+h4{
+    margin-top: 5px;
+    color: black;
+    display: flex;
+    justify-content: center;
+}
+.pic1{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    box-shadow: 0px 8px 10px 2px black;
+    
+}
+.pic1:hover{
+    box-shadow:0px 10px 20px  black;
+    transform: scale(1.05);
+}
+.coffeehouse{
+    /* border: solid red; */
+    width: 90%;
+
+    margin: 40px 50px 40px 50px ;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+}
+.coffeelist{
+    /* border: solid red; */
+    width: 90%;
+    margin: 40px 50px 40px 50px ;
+    background-color: rgb(165, 42, 42, 0.3);
+    padding: 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 8px brown;
+}
+h1{
+    color: brown;
+   margin-bottom:10px;
+}
+ol li{
+    margin: 10px;
+}
+.coffeelist>p{
+    margin-top: 20px;
+}
+
